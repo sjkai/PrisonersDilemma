@@ -12,7 +12,7 @@ class Player0:
    #Defining functions for each child(instance) of class Car
    def strategy(self,history, opponent_history, score, opponent_score, getting_team_name):
         if getting_team_name:
-            return 'loyal'
+            return 'Old Guy Strategy'
         else:
             return 'c'
    
