@@ -14,5 +14,5 @@ class Player0:
         if getting_team_name:
             return 'Old Guy Strategy'
         else:
-            return 'c'
+            return 'b'
    
