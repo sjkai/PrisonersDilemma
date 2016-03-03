@@ -11,7 +11,7 @@ class Player10:
     
    #Defining functions for each child(instance) of class Car
    def strategy(self,history, opponent_history, score, opponent_score, getting_team_name):
-        if getting_team_name:
+        if getting_team_name:'can't be stopped'
             return 'loyal vengeful'
         else:
             # use history, opponent_history, score, opponent_score
