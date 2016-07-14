@@ -13,7 +13,7 @@ class Player2:
    def strategy(self,history, opponent_history, score, opponent_score, getting_team_name):
         if getting_team_name:
             return 'loyal most of the time'
-       else:
+        else:
             if len(opponent_history) == 0: #It's the first round: collude
                 return 'c'
             elif  len(opponent_history) > 3 and opponent_history[-1]=='b'and opponent_history[-2]=='b' :
